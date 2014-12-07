@@ -1,0 +1,397 @@
+body
+{
+   margin:0;
+   padding:0; 
+   font-family:Microsoft YaHei;
+   overflow-x:hidden;
+}
+
+ol,ul{
+    list-style:none;
+}
+
+img
+{
+   max-width:100%;
+}
+
+a 
+{
+   text-decoration:none;
+}
+
+#box
+{
+   width:100%;
+   height:100%; 
+}
+/*标题*/
+ .title
+{
+  width:100%;
+  height:40px;
+  background:#51A2FD; 
+  position:fixed;
+   top:0px;
+   left:0px; 
+}
+/*点餐样式完毕*/
+.title-name
+{ 
+   color:white;
+   font:10px;
+   padding:10px 0 0 10px;
+}
+/*搜索框*/
+.search
+{ 
+  position:absolute;
+  top:8px;
+  left:30%;
+  width:100%;
+}
+
+.searchbox
+{
+   width:50%;  
+   height:20px;
+   border-radius: 5px;
+}
+
+/*商家图片、名称*/ 
+ 
+.business-area
+{
+   text-align:center;
+}
+ 
+.business-area ul li
+{  
+  float:left;  
+  margin:3% auto;
+  padding-top:8%; 
+  width:30%;
+}
+
+.business
+{
+   max-width:100%; 
+   display:block;
+} 
+
+.business a
+{
+   color:#000;
+}
+
+.business-logo img
+{
+   max-width:80%; 
+}
+/*点餐样式完毕*/
+
+/*个人菜单栏*/
+   .menu-list
+   {
+       width:100%;
+       bottom:0px;
+	   right:0px;
+	   left:0px;
+	   position:fixed;
+	   height:15%;   
+	   background:#51A2FD; 
+   }
+   
+   .menu-list tr
+   {
+      width:100%;
+	  
+   }
+   
+   .menu-list tr td
+   {
+      float:left;  
+     text-align:center;
+	 width:24.1%; 
+	 background:#51A2FD; 
+   } 
+   
+   .menu-icon 
+   {
+      width:100%;
+	  margin:0 auto;
+   }
+   
+   .menu-icon img
+   {
+      max-width:50%;
+   }
+   
+   .menu-name span
+   {
+        font-size:90%;
+		color:white;
+   }
+   
+.white
+   {
+      width:100%;
+	  height:280px;
+   }
+   
+/*个人菜单栏完*/
+
+/*订餐记录*/
+.record-area
+{
+   padding-top:8%;
+}
+
+.date
+{
+    font-size:20px;
+	color:red;
+	
+}
+
+ .record-area ul li table
+{
+     width:100%;  
+}
+
+.line
+{
+   width:100%;
+   height:2px;
+   background:#aaa; 
+}
+
+ .record-area ul li table tr td 
+ {
+    width:33%;
+ }
+
+ .business-title
+ {
+    font-size:30px;
+ }
+ 
+ .money
+ { 
+    /*color: #E51F1F;*/
+	float:right; 
+ }
+ /*订单记录页完*/
+  .business-message
+  {
+     width:100%;     
+	 background-image:url(../images/bg.jpg);
+	 background-size: cover;
+	 height:20%;
+     padding-top:40px;	 
+	 text-align:center; 
+  }
+ 
+ .business-pic img
+ {
+    max-width:30%;
+	padding:3% 0 0 0 ; 
+	
+ }
+  
+ .bussiness-message
+ {
+    width:100%;
+ }
+ 
+ .business-message p
+ { 
+     text-align:center; 
+ }
+ 
+ .detail-msg
+ {
+     font-size:100%;
+  }
+ 
+ .detail-msg img
+ {
+    max-width:20%;
+ }
+ 
+  .detail table 
+  {
+     width:100%; 
+	 border:0; 
+	 border-collapse:collapse;
+  }
+ 
+  .detail table tr
+  {
+      width:100%; 
+  }
+ 
+ .detail table tr td
+ {
+      width:50%;
+	  border-collapse:collapse;
+	  border:1px solid #999;    
+ }
+ 
+ .food-list table
+ { 
+   width:100%;
+   border:0;
+   margin-top:5%;
+ }
+ 
+ .food-list tr
+ {
+    width:100%;   
+ }
+ 
+  .food-list tr td
+  {
+      border-top:1px solid #aaa;
+	  padding:2% 0;
+  }
+ 
+ .food-name 
+ {
+    margin-left:0;
+ }
+ 
+ .food-money
+ {
+    float:right; 
+ }
+ 
+ .confirm input
+ {
+     width:100%;
+	 height:8%;
+	 background:#EB6055;
+	 position:fixed;
+	 left:0px;
+	 bottom:15%;
+	 text-align:center; 
+	color:white; 
+	border-radius:15px;
+ }
+ 
+ /*选购页完*/
+ 
+ /*购物车*/
+ 
+ .cart-item table
+ {
+    width:100%;
+	padding-top:40px;
+ }
+ 
+ .cart-item  tr
+ {
+    width:100%;
+   border-collapse:collapse;	
+   padding:3% 0;
+ }
+ 
+ .cart-item tr td 
+ {
+    width:15%;
+	 border-top:1px solid #999;    
+	 text-align:center;
+	 padding:3%;
+ }
+ 
+ .count
+ {
+   text-align:center;
+   width:100%; 
+ }
+ 
+ .count-input
+ {
+    width:20%; 
+	text-align:center;
+	position:relative;
+	z-index:-1;
+ }
+ 
+ #countInput
+ {
+     width:30%;
+ }
+ 
+ .reduce 
+ {
+    width:25%;
+	height:20px;
+ 	 border:1px solid #aaa;
+	 background: #F094AF;  
+	 color:white;
+	 float:left;
+	 border-top-left-radius:5px;
+	 border-bottom-left-radius:5px;  
+ }
+ 
+  .add
+ {
+    width:25%;
+	height:20px;
+ 	 border:1px solid #aaa;
+	 background: #F094AF;
+     color:white;	 
+	float:right;
+	border-top-right-radius:5px;
+	 border-bottom-right-radius:5px;
+ }
+ 
+td .price
+ {
+    width:15%;
+ }
+ 
+td .totalPrice
+ {
+    width:15%;
+ }
+ 
+ .total
+ {
+   float:right;
+ }
+ 
+ #priceTotal
+ {
+    font-size:20px;
+	color:red;
+ }
+ 
+ .continue input
+ {
+     text-align:center;
+	 width:100%;
+	 background:#84DB39;
+	 padding:3%;
+	 border-radius:15px;
+	  font-family:Microsoft YaHei;
+	  color:white;
+ }
+ 
+  .sub input
+ {
+     text-align:center;
+	 width:100%;
+	 background:#51A2FD;
+	 padding:3%;
+	 border-radius:15px;
+	  font-family:Microsoft YaHei;
+	  color:white;
+ }
+ 
+ /*************************************/
+.clear
+{
+  clear:both;
+}

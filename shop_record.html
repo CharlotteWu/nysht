@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+         <head>
+		       <meta  charset="utf-8" />
+               <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+               <link rel="stylesheet" href="css/style.css" type="text/css"/>   
+	           <title>订单记录</title>
+			   <script>
+			       window.onload = function  changeRowColor(){
+	 var  table=document.getElementById("bill");
+	 var  tr=table.getElementsByTagName("tr");
+	 for(var i=0;i<tr.length;i++)
+	 {
+			   if(i%2==0){
+			   tr[i].style.background="#F2F2F2";
+	  }else{
+			  tr[i].style.background="#ffffff";
+			 }
+		   }
+    }
+			   </script>
+         </head>
+         <body>
+		     <div class="box">
+			      <div class="title">
+			       <div class="title-name">订餐记录</div> 
+			  </div>
+			<div class="record-area" id="bill">
+				 <ul>
+				     <li> 
+					    <p class="date">2014.9.1</p>
+						<span class="business-name">光头佬</span>
+						<div class="line"></div>
+					      <table>
+						      <tr>
+							      <td>水晶饺</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+							  <tr>
+							      <td>水晶饺</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+							  <tr>
+							      <td>水晶饺</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+						  </table> 
+						 <!--我是分割线~-->
+						<span class="business-name">麦乐堡</span>
+						<div class="line"></div>
+					      <table>
+						      <tr>
+							      <td>汉堡</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+							  <tr>
+							      <td>鸡块</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+						  </table>
+						  <p  class="money">总计:￥30.0 </p>
+					  </li>
+             <!--------------------------------------------------------------->					  
+					  <li> 
+					    <p class="date">2014.9.2</p>
+						<span class="business-name">光头佬</span>
+						<div class="line"></div>
+					      <table>
+						      <tr>
+							      <td>水晶饺</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+							  <tr>
+							      <td>水晶饺</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+							  <tr>
+							      <td>水晶饺</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+						  </table> 
+						 <!--我是分割线~-->
+						<span class="business-name">麦乐堡</span>
+						<div class="line"></div>
+					      <table>
+						      <tr>
+							      <td>汉堡</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+							  <tr>
+							      <td>鸡块</td> 
+								  <td><span>1</span>份</td>
+                                   <td>￥6.0</td>								  
+							  </tr>
+						  </table>
+						  <p  class="money">总计:￥30.0 </p>
+					  </li> 
+				  </ul>
+				 </div> 
+			<!--记录列表完-->
+			<footer class="white"></footer>
+			<!--导航菜单-->   
+		            <table class="menu-list">
+				       <tr>
+					       <td>
+						     <div class="menu">
+						          <div class="menu-icon"><a href="index.html"><img src="images/home.png"></a></div>
+							      <div class="menu-name"> <span> 主页</span></div>
+						     </div>
+						   </td>
+						   <td>
+						    <div class="menu">
+						          <div class="menu-icon"><a href="shop_cart.html"><img src="images/shop_car.png"></a></div>
+							      <div class="menu-name"><span> 购物车 </span></div>
+						     </div>
+						   </td>
+						   <td>
+						       <div class="menu">
+						          <div class="menu-icon"><img src="images/person.png"></div>
+							      <div class="menu-name"><span>个人资料</span></div>
+						     </div>
+						   </td>
+						   <td>
+						       <div class="menu">
+						          <div class="menu-icon"><a href="shop_record.html"><img src="images/record.png"></a></div>
+							      <div class="menu-name"><span> 订单记录</span></div>
+						     </div>
+						   </td>
+					   </tr>
+				 </table> 
+	<!--导航菜单完-->
+			 </div>
+         </body>
+</html>

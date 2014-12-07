@@ -1,0 +1,99 @@
+ <!DOCTYPE HTML>
+<html>
+         <head>
+		       <meta  charset="utf-8" />
+               <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+               <link rel="stylesheet" href="css/style.css" type="text/css"/>  
+                <script type="text/javascript" src="js/js.js"></script> 
+	           <title>订单记录</title> 
+         </head>
+         <body>
+		     <div class="box">
+			      <div class="title">
+			       <div class="title-name">订餐记录</div> 
+			  </div>
+		      <!--购物车-->
+			  <form action="#" method="post"> 
+			        <div class="cart-item">
+					      <table id="cartTable"> 
+						     <thead>
+							       <th>商品名</th>
+								   <th>数量</th>
+								   <th>单价</th>
+								   <th>总价</th>
+								   <th>操作</th> 
+							</thead>
+							<tbody>
+							       <tr> 
+							       <td class="goods" >套餐A+套餐B</td>
+			                       <td class="count" id="countInput"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+  </span></td>  
+							     <td class="price">6.0</td>
+							       <td class="total-price">6.0</td>
+								  <td class="operation"><span class="delete">删除</span></td>
+								   </tr> 
+								     <tr> 
+							       <td class="goods">套餐A+套餐B</td>
+			                       <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+  </span></td>  
+							     <td class="price">6.0</td>
+							       <td class="total-price">6.0</td>
+								  <td class="operation"><span class="delete">删除</span></td>
+								   </tr> 
+								       <tr> 
+							       <td class="goods">套餐A+套餐B</td>
+			                       <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+  </span></td>  
+							     <td class="price">6.0</td>
+							       <td class="total-price">6.0</td>
+								  <td class="operation"><span class="delete">删除</span></td>
+								   </tr> 
+								      <tr> 
+							       <td class="goods">套餐A+套餐B</td>
+			                       <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+  </span></td>  
+							     <td class="price">6.0</td>
+							       <td class="total-price">6.0</td>
+								  <td class="operation"><span class="delete">删除</span></td>
+								   </tr> 
+								  </tbody>
+						  </table>
+					</div>
+				<!--总计栏-->
+					<div class="total">
+					        <div class="total">合计：￥<span id="priceTotal">0.00</span></div>
+				   </div>  
+				   <div class="continue"><a href="index.html"><input type="button" value="继续购物"></a></div>
+				   <div class="sub"><input type="submit" value="确认提交"></div>
+				 </form>
+			<!--购物车完-->
+			<footer class="white"></footer>
+			<!--导航菜单-->   
+		         <table class="menu-list">
+				       <tr>
+					       <td>
+						     <div class="menu">
+						          <div class="menu-icon"><a href="index.html"><img src="images/home.png"></a></div>
+							      <div class="menu-name"><span>主页</span></div>
+						     </div>
+						   </td>
+						   <td>
+						    <div class="menu">
+						          <div class="menu-icon"><a href="shop_cart.html"><img src="images/shop_car.png"></a></div>
+							      <div class="menu-name"><span> 购物车 </span></div>
+						     </div>
+						   </td>
+						   <td>
+						       <div class="menu">
+						          <div class="menu-icon"><img src="images/person.png"></div>
+							      <div class="menu-name"><span>个人资料</span></div>
+						     </div>
+						   </td>
+						   <td>
+						       <div class="menu">
+						          <div class="menu-icon"><a href="shop_record.html"><img src="images/record.png"></a></div>
+							      <div class="menu-name"><span> 订单记录</span></div>
+						     </div>
+						   </td>
+					   </tr>
+				 </table> 
+	<!--导航菜单完-->
+			 </div>
+         </body>
+</html>
